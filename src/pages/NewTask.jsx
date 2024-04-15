@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 import backImg from '../assets/back-arrow.svg';
 import dropImg from '../assets/Vector.svg';
+
 const NewTask = () => {
+  const scrollToTop = () => {
+    window.scroll({ top: 0, behavior: 'smooth' });
+  };
   return (
     <>
       <div className='new-task-wrapper '>
@@ -14,7 +18,7 @@ const NewTask = () => {
             >
               <img src={backImg} alt='back' />
             </Link>
-            <span className='header-span'>New Task</span> 
+            <span className='header-span'>New Task</span>
           </h2>
 
           {/* task title input */}
@@ -69,9 +73,9 @@ const NewTask = () => {
 
           {/* back to top link */}
           <div className='text-center mt-5 pb-3 '>
-            <a href='' target='blank' className='new-task-link '>
+            <Link onClick={scrollToTop} className='new-task-link '>
               Back To Top
-            </a>
+            </Link>
           </div>
         </main>
       </div>

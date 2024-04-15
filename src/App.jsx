@@ -13,8 +13,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/alltasks' element={<AllTasks />} />
-          <Route path='/newtasks' element={<NewTask />} />
+          <Route path='/AllTask' element={<AllTasks />} />
+          <Route path='/NewTask' element={<NewTask />} />
           <Route path='/edittasks' element={<EditTask />} />
 
         </Routes>

@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='d-flex  align-items-center justify-content-center'>
           <main className='container row gap-5 w-100 lh-lg'>
             {/* hero component */}
-            <section className='col-lg-6 d-flex hero-contents flex-column gap-2 justify-content-center ps-0  me-4 align-items-start'>
+            <section className='col-lg-6 d-flex hero-contents flex-column gap-2 justify-content-center ps-0  me-5 align-items-start'>
               <h2 className='hero-header text-wrap text-dark d-flex flex-column gap-2'>Manage your Tasks on <span className='hero-span'>TaskDuty</span> </h2>
               <p className='hero-paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
