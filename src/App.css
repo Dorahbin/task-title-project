@@ -3,7 +3,7 @@
 /* utils */
 .headers {
   color: rgba(41, 41, 41, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
@@ -21,7 +21,7 @@ input {
 Navbar {
   background: rgba(184, 182, 182, 1);
   color: rgba(45, 0, 80, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 600;
 }
 
@@ -29,8 +29,8 @@ Navbar {
   color: rgba(45, 0, 80, 1);
 }
 
-.text-dark{
-  font-family: "Signika Negative", sans-serif;
+.text-dark {
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
@@ -48,14 +48,14 @@ Navbar {
 
 .hero-paragraph {
   color: rgba(115, 113, 113, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
 .hero-btn {
   background-color: rgba(151, 79, 208, 1);
   color: rgba(250, 249, 251, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
@@ -63,32 +63,32 @@ Navbar {
 
 .urgent {
   color: rgba(243, 131, 131, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
 .important {
   color: rgba(115, 195, 166, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
 .content-box p {
   color: rgba(115, 113, 113, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
 .content-box h2 {
   color: rgba(41, 41, 41, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
 .edit-btn {
   background-color: rgba(151, 79, 208, 1);
   color: rgba(250, 249, 251, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
@@ -96,7 +96,7 @@ Navbar {
   background-color: inherit;
   color: rgba(151, 79, 208, 1);
   border: 1px solid rgba(151, 79, 208, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
@@ -107,21 +107,24 @@ Navbar {
 .add-new-item {
   color: rgba(151, 79, 208, 1);
   text-decoration: none;
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
 .new-task-link {
   color: rgba(151, 79, 208, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
-
 
 /* new task */
 .new-task-container {
   position: relative;
   color: rgba(204, 204, 204, 1);
+}
+
+.header-span{
+  margin-left: -10rem;
 }
 
 .task-title {
@@ -131,7 +134,7 @@ Navbar {
   left: 1rem;
   color: rgba(156, 156, 156, 1);
   background-color: #ffffff;
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
@@ -143,20 +146,18 @@ Navbar {
   height: 10rem;
   /* padding-bottom: 6rem; */
   outline: 0;
-
 }
 
 .tags-btn {
   position: absolute;
   bottom: 0.8rem;
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
-
 }
 
 .urgent-important-btn {
   padding: 0.2rem;
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 400;
 }
 
@@ -173,7 +174,7 @@ Navbar {
 .done-task-btn {
   background-color: rgba(151, 79, 208, 1);
   color: rgba(250, 249, 251, 1);
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 500;
 }
 
@@ -197,10 +198,13 @@ Navbar {
   color: #ffffff;
 }
 
-
 @media (max-width: 425px) {
   .hero-img {
     width: 100%;
     margin: auto;
+  }
+
+  .hero-contents{
+    margin-top: 2rem;
   }
 }

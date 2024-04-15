@@ -8,14 +8,16 @@ const EditPages = () => {
       <div className='new-task-wrapper '>
         <main className='container'>
           {/* header part */}
-          <h2>
+          <h2 className='d-flex align-items-center'>
             <Link
               to='/alltasks'
-              className='d-flex my-5 headers new-task-header text-decoration-none ms-1 gap-3 align-items-center'
+              className='my-5 headers new-task-header text-decoration-none ms-1 '
             >
               <img src={backImg} alt='back' />
-              Edit Task
+            
             </Link>
+            <span className='header-span'>Edit Task</span> 
+
           </h2>
 
           {/* task title input */}
